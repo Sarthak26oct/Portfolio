@@ -1,0 +1,78 @@
+.container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 35px 18px;
+  background: var(--color-glass-bg);
+  border-radius: 22px;
+  box-shadow: 0 10px 38px rgba(0, 0, 0, 0.68);
+  color: var(--color-text-light);
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 1rem;
+}
+
+.entry {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  background: rgba(20, 25, 56, 0.45);
+  border-radius: 18px;
+  padding: 10px 24px 20px;
+  box-shadow: 0 6px 18px rgba(106, 90, 249, 0.09);
+}
+
+.icon {
+  font-size: 2.3rem;
+  line-height: 1;
+  margin-top: 15px;
+}
+
+.role {
+  font-weight: 500;
+  font-size: 1.02rem;
+  color: var(--color-primary-gradient);
+}
+
+.duration {
+  font-size: 0.96rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.7em;
+  display: block;
+}
+
+.responsibilities {
+  margin: 14px 0 0 0;
+  padding: 0 0 0 17px;
+  font-size: 1.09rem;
+  color: var(--color-text-light);
+  line-height: 1.65;
+}
+
+.sectionIcon {
+  display: inline-block;
+  margin-right: 12px;
+  vertical-align: middle;
+  animation: bounce 1.3s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}

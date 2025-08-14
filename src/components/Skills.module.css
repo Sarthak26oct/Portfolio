@@ -1,0 +1,83 @@
+.container {
+  max-width: 960px;
+  margin: 55px auto;
+  padding: 28px 12px 60px;
+  background: var(--color-glass-bg);
+  border-radius: 22px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.7);
+  color: var(--color-text-light);
+}
+h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 38px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+  gap: 32px;
+  padding: 1rem;
+}
+
+.skillCard {
+  display: flex;
+  align-items: center;
+  background: rgba(30, 38, 68, 0.7);
+  padding: 22px 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(120, 90, 230, 0.1);
+  transition: transform 0.2s;
+  gap: 18px;
+}
+.skillCard:hover {
+  transform: scale(1.05) rotate(-2deg);
+  box-shadow: 0 12px 40px rgba(140, 40, 255, 0.19);
+}
+.icon {
+  font-size: 2.2rem;
+  margin-right: 3px;
+}
+.skillInfo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 7px;
+}
+.progressBar {
+  height: 9px;
+  border-radius: 4px;
+  width: 100%;
+  background: #232846;
+  margin: 2px 0;
+  overflow: hidden;
+}
+.progressFill {
+  background: var(--color-primary-gradient);
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+}
+.level {
+  font-size: 0.99rem;
+  color: var(--color-primary-gradient);
+  font-weight: 600;
+  margin-top: 3px;
+  align-self: flex-end;
+}
+
+.sectionIcon {
+  display: inline-block;
+  margin-right: 12px;
+  vertical-align: middle;
+  animation: bounce 1.3s ease-in-out infinite;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
