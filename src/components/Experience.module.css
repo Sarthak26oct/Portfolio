@@ -27,7 +27,7 @@ h2 {
   display: flex;
   gap: 32px;
   align-items: flex-start;
-  background: rgba(20, 25, 56, 0.45);
+  background: var(--color-glass-bg);
   border-radius: 18px;
   padding: 10px 24px 20px;
   box-shadow: 0 6px 18px rgba(106, 90, 249, 0.09);

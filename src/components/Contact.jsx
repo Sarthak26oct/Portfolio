@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 import {
   FaLinkedin,
   FaGithub,
-  FaTwitter,
+  FaPhone,
   FaMapMarkerAlt,
   FaPaperPlane,
 } from "react-icons/fa";
@@ -51,18 +51,14 @@ export default function Contact() {
           <FaGithub size={38} style={{ color: "#222" }} />
           <span>GitHub</span>
         </a>
-        {/* Add more socials if desired */}
-        {/* Example for Twitter:
-        <a href="https://twitter.com/yourprofile" className={styles.card} target="_blank" rel="noopener noreferrer">
-          <FaTwitter size={38} style={{color: "#1da1f2"}} />
-          <span>Twitter</span>
-        </a> */}
-        {/* Example for Location:
         <div className={styles.card}>
-          <FaMapMarkerAlt size={38} style={{color: "#f44336"}} />
-          <span>New Delhi, India</span>
+          <FaPhone size={38} style={{ color: "#f44336" }} />
+          <span>+91 9548734834</span>
         </div>
-        */}
+        <div className={styles.card}>
+          <FaMapMarkerAlt size={38} style={{ color: "#f44336" }} />
+          <span>F-1402 JM Florence, Greate Noida, India</span>
+        </div>
       </div>
     </section>
   );

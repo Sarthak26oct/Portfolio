@@ -24,7 +24,7 @@ h2 {
 .skillCard {
   display: flex;
   align-items: center;
-  background: rgba(30, 38, 68, 0.7);
+  background: var(--color-glass-bg);
   padding: 22px 20px;
   border-radius: 14px;
   box-shadow: 0 4px 18px rgba(120, 90, 230, 0.1);
