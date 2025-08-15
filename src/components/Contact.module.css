@@ -69,3 +69,20 @@ h2 {
     transform: translateY(-8px);
   }
 }
+
+@media (max-width: 600px) {
+  .contactGrid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    width: 100%;
+  }
+
+  .card {
+    min-width: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px 8px;
+    font-size: 0.95rem;
+  }
+}

@@ -2,13 +2,7 @@ import React from "react";
 import styles from "./Contact.module.css";
 import { contact } from "../data";
 import { MdEmail } from "react-icons/md";
-import {
-  FaLinkedin,
-  FaGithub,
-  FaPhone,
-  FaMapMarkerAlt,
-  FaPaperPlane,
-} from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaPhone, FaPaperPlane } from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -20,8 +14,8 @@ export default function Contact() {
         Contact
       </h2>
       <p className={styles.lead}>
-        Interested in connecting or collaborating? Reach out via email or any of
-        my socials!
+        For any opportunities, collaborations, or inquiries, please connect via
+        email or my social profiles.
       </p>
       <div className={styles.contactGrid}>
         <a
@@ -54,10 +48,6 @@ export default function Contact() {
         <div className={styles.card}>
           <FaPhone size={38} style={{ color: "#f44336" }} />
           <span>+91 9548734834</span>
-        </div>
-        <div className={styles.card}>
-          <FaMapMarkerAlt size={38} style={{ color: "#f44336" }} />
-          <span>F-1402 JM Florence, Greate Noida, India</span>
         </div>
       </div>
     </section>

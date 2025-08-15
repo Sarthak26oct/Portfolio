@@ -81,3 +81,34 @@ h2 {
     transform: translateY(-8px);
   }
 }
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .skillCard {
+    padding: 16px 12px;
+    gap: 10px;
+  }
+
+  .icon {
+    font-size: 1.8rem;
+  }
+
+  .skillInfo span {
+    font-size: 0.9rem;
+  }
+
+  .level {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+}

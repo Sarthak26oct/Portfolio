@@ -8,6 +8,7 @@
   --color-primary-gradient-hover: linear-gradient(135deg, #554cc8, #bb6bd9);
   --font-primary: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   --background-color: var(--color-dark-bg);
+  --nav-glass-bg: rgba(20, 20, 35, 0.75);
 }
 
 [data-theme="light"] {
@@ -19,6 +20,7 @@
   --color-primary-gradient: linear-gradient(135deg, #7f91fa, #ba9efc);
   --color-primary-gradient-hover: linear-gradient(135deg, #6a54c6, #9a72e6);
   --background-color: #f0f2ff;
+  --nav-glass-bg: rgba(255, 255, 255, 0.65);
 }
 
 body {

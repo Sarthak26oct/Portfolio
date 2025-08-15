@@ -76,3 +76,35 @@ h2 {
     transform: translateY(-8px);
   }
 }
+
+@media (max-width: 600px) {
+  .entry {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 18px;
+  }
+
+  .icon {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+
+  .entry h3 {
+    font-size: 1.1rem;
+  }
+
+  .role {
+    display: block;
+    font-size: 0.95rem;
+  }
+
+  .duration {
+    margin-bottom: 0.4em;
+  }
+
+  .responsibilities {
+    padding-left: 16px;
+    font-size: 1rem;
+  }
+}
